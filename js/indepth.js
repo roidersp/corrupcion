@@ -6,7 +6,7 @@ var disqus_per_page=3;
 var tamaño_total=1920;
 var ventana_alto = $(window).height();
 var ventana_ancho = $(window).width();
-
+var num_carrusel=0;
 
 $("#indepth_tarjeta_pais").css({
 	"width":ventana_ancho+"px",
@@ -28,14 +28,29 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		
 		$(document).on("click",".indepth_tabla_paises_item",function(){
 			var pais_tabla=$(this).attr("pais");
-			
+			num_carrusel=$(this).index();
 			
 			llenar_datos_movil((data[pais_tabla]));
 			$("#indepth_tarjeta_pais").css("display","table");
 			 $('html, body').animate({
-		 	scrollTop: ($("#indepth_page2").offset().top)
-    	}, 0);
-		});
+				 	scrollTop: ($("#indepth_page2").offset().top)
+		    	}, 0);
+		    	
+		    	
+		    	
+			});
+			
+			$(document).on("click",".indepth_flecha_izq",function(){
+				num_carrusel=num_carrusel-1;
+				var data3=data[Object.keys(data)[num_carrusel]];
+				llenar_datos_movil(data3);
+			});
+			
+			$(document).on("click",".indepth_flecha_der",function(){
+				num_carrusel=num_carrusel+1;
+				var data3=data[Object.keys(data)[num_carrusel]];
+				llenar_datos_movil(data3);
+			});
 		
 		$(document).on("click",".indepth_tarjeta_x",function(){
 			$("#indepth_tarjeta_pais").css("display","none");
@@ -67,7 +82,6 @@ var llenar_datos_movil = function(datos){
 	
 	if(datos["t_in"]){
 		var involucrados=datos["involucrados"];
-		console.log(involucrados.length)
 		if(involucrados.length>2){
 			$(".indepth_inv_cont").addClass("inv4");
 			$(".indepth_inv_cont").removeClass("inv2");
@@ -90,6 +104,19 @@ var llenar_datos_movil = function(datos){
 		$(".indepth_inv_cont").html(datos["involucrados"][0]);
 	
 	}
+	
+	if(num_carrusel==0){
+		$(".indepth_flecha_izq").css("display","none");
+	}else{
+		$(".indepth_flecha_izq").css("display","block");
+	}
+	
+	if(num_carrusel==39){
+		$(".indepth_flecha_der").css("display","none");
+	}else{
+		$(".indepth_flecha_der").css("display","block");
+	}
+	
 };
 
 var llenar_datos = function(datos){
@@ -102,7 +129,6 @@ var llenar_datos = function(datos){
 	
 	if(datos["t_in"]){
 		var involucrados=datos["involucrados"];
-		console.log(involucrados.length)
 		if(involucrados.length>2){
 			$(".indepth_inv_cont").addClass("inv4");
 			$(".indepth_inv_cont").removeClass("inv2");
@@ -261,7 +287,6 @@ $(document).ready(function(){
     if(navigator.platform == 'iPad'){
 	    //$("#indepth_parallax_back").css("background-size", "100%");
 	    $("#indepth_parallax_back").css("background-attachment", "initial");
-	    console.log("ipad")
     }
 		loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
 });

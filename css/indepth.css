@@ -802,13 +802,18 @@ circle:hover{
 		width: 30px;
 		height: 100%;
 		float: left;
-		background-image: url(../images/mapa_flecha-06.svg);
+		background-image: url(../images/flecha_izquierda.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 	
 	.indepth_flecha_der{
 		width: 30px;
 		height: 100%;
 		float: right;
+		background-repeat: no-repeat;
+		background-image: url(../images/flecha_derecha.svg);
+		background-position: center center;
 	}
 	
 	#tarjeta_dinero{
