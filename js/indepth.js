@@ -26,7 +26,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		    $("#indepth_tabla_paises_cont").append(div);
 		}
 		
-		$(document).on("click touchstart",".indepth_tabla_paises_item",function(){
+		$(document).on("click",".indepth_tabla_paises_item",function(){
 			 ventana_alto = $(window).height();
 			 ventana_ancho = $(window).width();
 			$("#indepth_tarjeta_pais").css({
