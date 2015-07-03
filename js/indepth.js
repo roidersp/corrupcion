@@ -29,10 +29,12 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		$(document).on("click",".indepth_tabla_paises_item",function(){
 			var pais_tabla=$(this).attr("pais");
 			
-			console.log(data[pais_tabla]);
 			
 			llenar_datos_movil((data[pais_tabla]));
 			$("#indepth_tarjeta_pais").css("display","table");
+			 $('html, body').animate({
+		 	scrollTop: ($("#indepth_page2").offset().top)
+    	}, 0);
 		});
 		
 		$(document).on("click",".indepth_tarjeta_x",function(){
@@ -56,7 +58,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 });
 
 var llenar_datos_movil = function(datos){
-	var data_img="images/banderas_cuadradas/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".png";
+	var data_img="images/banderas_cuadradas/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".jpg";
 	$("#indepth_tarjeta_pais_nombre").html(datos["nombre"]);
 	$("#indepth_tarjeta_pais_logo img").attr("src",data_img);
 	

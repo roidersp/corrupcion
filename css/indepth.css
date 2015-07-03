@@ -91,7 +91,7 @@
 	background-image: url(../images/portada.jpg);
 	background-position: 50% 50%;
 	background-color: white;
-	background-size: 100% auto;
+	background-size: cover;
 }
 
 #indepth_cover .indepth_cover_back_body{
@@ -704,7 +704,7 @@ circle:hover{
 		float: left;
 	}
 	
-	.indepth_tarjeta_pais_logo img{
+	#indepth_tarjeta_pais_logo img{
 		width: 100%;
 	}
 	
@@ -741,6 +741,10 @@ circle:hover{
 		text-align: center;
 	}
 	
+	.indepth_inv_cont{
+		color: white;
+	}
+	
 	.inv2 .indepth_inv_item {
 	  width: 100px;
 	  padding: 0 10px;
@@ -758,6 +762,10 @@ circle:hover{
 	
 	.inv4 .indepth_inv_item{
 		width: 120px;
+	}
+	
+	.indepth_inv_text{
+		font-size: 12px;
 	}
 	
 	.indepth_tarjeta_actos{
@@ -805,6 +813,18 @@ circle:hover{
 	
 	#tarjeta_dinero{
 		height: 60px;
+	}
+	
+	.indepth_inv_cont.inv4{
+		width: 260px;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 100%;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-image: url(../images/mobile.jpg);
 	}
 }
 
@@ -930,15 +950,5 @@ font-size: 25px;
 }
 
 @media screen and (max-height: 1024px) and (max-width: 768px){
-	.indepth_parallax_back{
-		background-attachment: initial;
-	}
-	#indepth_cover .indepth_parallax_back{
-		background-image: url(../images/mobile.jpg);
-	}
-	
-	#indepth_cover .indepth_parallax_back{
-		background-size: 100% auto;
-		background-position: 50% 50%;
-	}
+
 }
