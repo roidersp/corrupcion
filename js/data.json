@@ -1,0 +1,383 @@
+{
+  "Anguila": {
+    "nombre": "Anguila",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Raymond Guishard"
+    ],
+    "dinero": "3.2 mmd"
+  },
+  "Antigua_y_Barbuda": {
+    "nombre": "Antigua y Barbuda",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Everton Gonsalves",
+      "Derrick Gordon"
+    ],
+    "dinero": "3.6 mmd"
+  },
+  "Aruba": {
+    "nombre": "Aruba",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrado"
+    ],
+    "dinero": "3.1 mmd"
+  },
+  "Bahamas": {
+    "nombre": "Bahamas",
+    "actos": "El presidente de la federación no aceptó el soborno otorgado por Bin Hammam en 2011",
+    "t_in": true,
+    "involucrados": [
+      "Anton Sealey"
+    ],
+    "dinero": "4.2 mdd"
+  },
+  "Barbados": {
+    "nombre": "Barbados",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Randolph Harris"
+    ],
+    "dinero": "4 mmd"
+  },
+  "Belice": {
+    "nombre": "Belice",
+    "actos": "Denunció soborno en Copa Oro 2013",
+    "t_in": true,
+    "involucrados": [
+      "Ruperto Vicente"
+    ],
+    "dinero": "4.3 mdd"
+  },
+  "Bermudas": {
+    "nombre": "Bermudas",
+    "actos": "Aliado de Joseph Blatter tras detenciones en 2015",
+    "t_in": true,
+    "involucrados": [
+      "Larry Mussenden"
+    ],
+    "dinero": "3.6 mdd"
+  },
+  "Bonaire": {
+    "nombre": "Bonaire",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "Islas_Virgenes_Britanicas": {
+    "nombre": "Islas Virgenes Británicas",
+    "actos": "No está regulada su empresa financiera del presidente de la federación: BDO. FBI investiga al país por ser un paraíso fiscal para la corrupción del futbol.",
+    "t_in": true,
+    "involucrados": [
+      "Andrew Bickerton",
+      "Aubrey Liburd"
+    ],
+    "dinero": "2.4 mdd"
+  },
+  "Canada": {
+    "nombre": "Canadá",
+    "actos": "Negó que dio dinero para recibir el Mundial Femenil",
+    "t_in": true,
+    "involucrados": [
+      "Victor Montagliani"
+    ],
+    "dinero": "3.8 mdd"
+  },
+  "Islas_Caiman": {
+    "nombre": "Islas Caimán",
+    "actos": "Participar activamente en la red de corrupción de la FIFA y Concacaf, aceptar sobornos y lavado de dinero. Acusado de arreglo de partidos. El país fue señalado como uno de los paraísos fiscales de la confederación.",
+    "t_in": true,
+    "involucrados": [
+      "Jeffrey Webb"
+    ],
+    "dinero": "4.4 mdd"
+  },
+  "Costa_Rica": {
+    "nombre": "Costa Rica",
+    "actos": "Acusado de fraude y lavado de dinero por FBI. En 16 de las 24 sociedades mercantiles en las que aparece, el presidente de la federación no tiene registro tibutario.",
+    "t_in": true,
+    "involucrados": [
+      "Eduardo Li"
+    ],
+    "dinero": "5.2 mdd"
+  },
+  "Cuba": {
+    "nombre": "Cuba",
+    "actos": "A favor de Blatter y el proceso de reelección",
+    "t_in": true,
+    "involucrados": [
+      "Luis Hernández"
+    ],
+    "dinero": "3.1 mdd"
+  },
+  "Curazao": {
+    "nombre": "Curazao",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "3.4 mdd"
+  },
+  "Dominica": {
+    "nombre": "Dominica",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Patrick John"
+    ],
+    "dinero": "3.5 mdd"
+  },
+  "Republica_Dominicana": {
+    "nombre": "República Dominicana",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Osiris Guzman"
+    ],
+    "dinero": "4.7 mdd"
+  },
+  "El_Salvador": {
+    "nombre": "El Salvador",
+    "actos": "Arreglo de partidos de su selección nacional",
+    "t_in": true,
+    "involucrados": [
+      "14 jugadores suspendidos de por vida"
+    ],
+    "dinero": "4.2 mdd"
+  },
+  "Guyana_Francesa": {
+    "nombre": "Guyana Francesa",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "Granada": {
+    "nombre": "Granada",
+    "actos": "Apoyó a Jeffrey Webb acusado de lavado de dinero y soborno",
+    "t_in": true,
+    "involucrados": [
+      "Cheney Joseph"
+    ],
+    "dinero": "2.8 mdd"
+  },
+  "Guadalupe": {
+    "nombre": "Guadalupe",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "Guatemala": {
+    "nombre": "Guatemala",
+    "actos": "Arreglo de partidos de su selección nacional",
+    "t_in": true,
+    "involucrados": [
+      "Guillermo Ramírez",
+      "Gustavo Cabrera",
+      "Yony Flores",
+      "Cristian García"
+    ],
+    "dinero": "4.6 mdd"
+  },
+  "Guyana": {
+    "nombre": "Guyana",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Colin Klass",
+      "Noel Adonis"
+    ],
+    "dinero": "2.6 mdd"
+  },
+  "Haiti": {
+    "nombre": "Haití",
+    "actos": "País sujeto a sobornos. La Universidad de la hija del presidente fue pagada por Jack Warner",
+    "t_in": true,
+    "involucrados": [
+      "Yves Jean-Bart"
+    ],
+    "dinero": "5 mdd"
+  },
+  "Honduras": {
+    "nombre": "Honduras",
+    "actos": "Malversación de fondos y abuso de autoridad",
+    "t_in": true,
+    "involucrados": [
+      "siete directivos"
+    ],
+    "dinero": "4.2 mdd"
+  },
+  "Jamaica": {
+    "nombre": "Jamaica",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Horace Burrell",
+      "Horace Reid"
+    ],
+    "dinero": "3.9 mdd"
+  },
+  "Martinica": {
+    "nombre": "Martinica",
+    "actos": "No registrado",
+    "t_in": false,
+    "involucrados": [
+      "No registrado"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "Mexico": {
+    "nombre": "México",
+    "actos": "Aceptación de multipropiedad pese a la negativa de la FIFA, Draft es ilegal según estatutos de FIFA.",
+    "t_in": true,
+    "involucrados": [
+      "Justino Compeán",
+      "Decio de María"
+    ],
+    "dinero": "3.6 mdd"
+  },
+  "Montserrat": {
+    "nombre": "Montserrat",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Vincent Cassell"
+    ],
+    "dinero": "4 mdd"
+  },
+  "Nicaragua": {
+    "nombre": "Nicaragua",
+    "actos": "Participar activamente en la red de corrupción de la FIFA y Concacaf, aceptar sobornos y lavado de dinero. Acusado de arreglo de partidos.",
+    "t_in": true,
+    "involucrados": [
+      "Julio Rocha"
+    ],
+    "dinero": "5 mdd"
+  },
+  "Panama": {
+    "nombre": "Panamá",
+    "actos": "No registrados",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "4.2 mdd"
+  },
+  "Puerto_Rico": {
+    "nombre": "Puerto Rico",
+    "actos": "Fue quien denunció ante FIFA el soborno para votar por Mohamed bin Hammam en 2011",
+    "t_in": true,
+    "involucrados": [
+      "Eric Labrador"
+    ],
+    "dinero": "2.6 mdd"
+  },
+  "Trinidad_y_Tobago": {
+    "nombre": "Trinidad y Tobago",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011. Sobornos para derechos de TV y comercialización de Concacaf.",
+    "t_in": true,
+    "involucrados": [
+      "Jack Warner",
+      "Debbie Minguell",
+      "Jason Sylvester",
+      "Richard Groden"
+    ],
+    "dinero": "4 mdd"
+  },
+  "Saint_Martin": {
+    "nombre": "Saint Martin",
+    "actos": "No registrados",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "San_Cristobal_y_Nevis": {
+    "nombre": "San Cristobal y Nevis",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Anthony Johnson"
+    ],
+    "dinero": "3.2 mdd"
+  },
+  "Saint_Martin": {
+    "nombre": "Saint Martin",
+    "actos": "No registrados",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "No recibe recursos"
+  },
+  "Santa_Lucia": {
+    "nombre": "Santa Lucia",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Patrick Mathurin"
+    ],
+    "dinero": "3.1 mdd"
+  },
+  "San_Vicente": {
+    "nombre": "San Vicente",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Joseph Delves",
+      "Ian Hypolite"
+    ],
+    "dinero": "3 mdd"
+  },
+  "Surinam": {
+    "nombre": "Surinam",
+    "actos": "No registrados",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "4.3 mdd"
+  },
+  "Islas_Turcas_y_Caicos": {
+    "nombre": "Islas Turcas y Caicos",
+    "actos": "Señalado como uno de los paraísos fiscales de Concacaf",
+    "t_in": false,
+    "involucrados": [
+      "No registrados"
+    ],
+    "dinero": "4.3 mdd"
+  },
+  "Islas_Virgenes_EU": {
+    "nombre": "Islas Virgenes EU",
+    "actos": "Involucrados en sobornos para votar por Mohamed bin Hammam 2011",
+    "t_in": true,
+    "involucrados": [
+      "Hillaren Frederick"
+    ],
+    "dinero": "3 mdd"
+  },
+  "EU": {
+    "nombre": "EU",
+    "actos": "Lavado de dinero, sobornos para derechos de TV y comercialización",
+    "t_in": true,
+    "involucrados": [
+      "Chuck Blazer"
+    ],
+    "dinero": "2.6 mdd"
+  }
+}
