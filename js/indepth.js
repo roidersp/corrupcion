@@ -26,7 +26,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		    $("#indepth_tabla_paises_cont").append(div);
 		}
 		
-		$(document).on("mouseover",".indepth_tabla_paises_item",function(){
+		$(document).on("click touchstart",".indepth_tabla_paises_item",function(){
 			var pais_tabla=$(this).attr("pais");
 			num_carrusel=$(this).index();
 			
@@ -40,19 +40,19 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		    	
 			});
 			
-			$(document).on("mouseover",".indepth_flecha_izq",function(){
+			$(document).on("click touchstart",".indepth_flecha_izq",function(){
 				num_carrusel=num_carrusel-1;
 				var data3=data[Object.keys(data)[num_carrusel]];
 				llenar_datos_movil(data3);
 			});
 			
-			$(document).on("click",".indepth_flecha_der",function(){
+			$(document).on("click touchstart",".indepth_flecha_der",function(){
 				num_carrusel=num_carrusel+1;
 				var data3=data[Object.keys(data)[num_carrusel]];
 				llenar_datos_movil(data3);
 			});
 		
-		$(document).on("mouseover",".indepth_tarjeta_x",function(){
+		$(document).on("click touchstart",".indepth_tarjeta_x",function(){
 			$("#indepth_tarjeta_pais").css("display","none");
 		});
 		
