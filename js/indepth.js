@@ -27,6 +27,13 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		}
 		
 		$(document).on("click touchstart",".indepth_tabla_paises_item",function(){
+			 ventana_alto = $(window).height();
+			 ventana_ancho = $(window).width();
+			$("#indepth_tarjeta_pais").css({
+				"width":ventana_ancho+"px",
+				"height":ventana_alto+"px"
+			});
+						
 			var pais_tabla=$(this).attr("pais");
 			num_carrusel=$(this).index();
 			
