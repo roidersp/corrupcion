@@ -993,25 +993,10 @@ circle:hover{
 }
 }
 
-@media screen and (max-height: 414px) {
+@media screen and (max-height: 800px) {
 	
-	.indepth_break{
-		height: 600px;
-	}
-	
-	#indepth_break_5{
-		height: 300px;
-	}
-	
-	#indepth_cover {
-height: 362px;
-}
-#indepth_cover .indepth_cover_back_body {
-top: 160px;
-}
-
-#indepth_cover .indepth_title {
-font-size: 25px;
+#indepth_mapa{
+	width: 800px;
 }
 
 }
