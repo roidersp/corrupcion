@@ -308,10 +308,6 @@ $(window).on("resize", function(){
 	 ventana_alto = $(window).height();
 	 ventana_ancho = $(window).width();
 	 
-	 $("#indepth_tarjeta_pais").css({
-	"width":ventana_ancho+"px",
-	"height":ventana_alto+"px"
-});
     	$('#indepth_cover').css("height",(ventana_alto)+"px");
     	 if(ventana_alto>600){
 	 	$('.indepth_break').css("height",ventana_alto+"px");
