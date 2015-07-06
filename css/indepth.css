@@ -239,13 +239,6 @@
 
 
 
-
-
-#indepth_page1 .indepth_text{
-	color: white;
-}
-
-
 /****DINAMICO****/
 
 .st0{fill:none;stroke:#7D7D7D;stroke-width:3;}
@@ -257,7 +250,7 @@
 	height: auto;
 	margin: auto;
 	display: table;
-	
+	margin-top: 40px;
 }
 
 #indepth_mapa svg{
@@ -445,11 +438,7 @@ circle:hover{
   margin-left: 2%;
 }
 
-#indepth_page1{
-	background-color: #191718;
-	color: white;
-	font-weight: 300;
-}
+
 
 #indepth_break_1 .indepth_parallax_back{
 	background-image: url(../images/break1.jpg)
@@ -458,6 +447,17 @@ circle:hover{
 #indepth_break_2 .indepth_parallax_back{
 	background-image: url(../images/break2.jpg);
 }
+
+.indepth_tabla_title{
+		color: white;
+		text-transform: uppercase;
+		font-size: 28px;
+		margin: auto;
+		text-align: center;
+		border-bottom: 3px solid white;
+		display: table;
+		padding: 3px 10px;
+	}
 
 @media screen and (min-width: 1920px) {
 	#indepth_libros_container{
