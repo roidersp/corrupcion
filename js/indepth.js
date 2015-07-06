@@ -31,7 +31,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			 ventana_ancho = $(window).width();
 			$("#indepth_tarjeta_pais").css({
 				"width":ventana_ancho+"px",
-				"height":(ventana_alto+100)+"px"
+				"height":(ventana_alto)+"px"
 			});
 			
 			$(".indepth_share").css("visibility","hidden");
