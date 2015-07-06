@@ -84,12 +84,10 @@
 .indepth_page_content{
 	background-color:  white;
 	position: relative;
-	z-index: 10;
 }
 
 #com{
 	background: white;
-	z-index: 10;
 }
 
 .indepth_page_body{
@@ -716,11 +714,12 @@ circle:hover{
 		left: 0;
 		top: 0;
 		display: none;
+		z-index: 3000;
 	}
 	
 	#indepth_page2{
 		position: relative;
-		z-index: 1;
+		z-index: 2000;
 	}
 	
 	.indepth_tarjeta_cont{
