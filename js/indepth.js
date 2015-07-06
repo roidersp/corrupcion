@@ -10,7 +10,7 @@ var num_carrusel=0;
 
 $("#indepth_tarjeta_pais").css({
 	"width":ventana_ancho+"px",
-	"height":ventana_alto+"px"
+	"height":window.innerHeight+"px"
 });
 
 $.getJSON( urlIndepth+"js/data.json", function( data ) {
@@ -31,7 +31,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			 ventana_ancho = $(window).width();
 			$("#indepth_tarjeta_pais").css({
 				"width":ventana_ancho+"px",
-				"height":(ventana_alto)+"px"
+				"height":(window.innerHeight)+"px"
 			});
 			
 			$(".indepth_share").css("visibility","hidden");
@@ -42,10 +42,10 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			
 			llenar_datos_movil((data[pais_tabla]));
 			$("#indepth_tarjeta_pais").css("display","table");
-			 $('html, body').animate({
+			 /*$('html, body').animate({
 				 	scrollTop: ($("#indepth_page2").offset().top)
 		    	}, 0);
-		    	
+		    */	
 		    	
 		    	
 			});
