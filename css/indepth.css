@@ -154,7 +154,7 @@
 .indepth_page_content .indepth_text{
 	color: #535252; /* color de la fuente*/
 	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1em;
 }
 
@@ -245,57 +245,6 @@
 	color: white;
 }
 
-#indepth_page1 .indepth_quote{
-	color: white;
-}
-
- .indepth_quote{
-	font-family: 'Roboto';
-	font-size: 25px;
-	color: #000;
-	/*border-bottom: 2px solid #000;
-	border-top: 2px solid #000;*/
-	padding: 10px 10px;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-}
-
-.indepth_quote_right{
-	width: 300px;
-	float: right;
-	margin: 10px 0 10px 15px;
-}
-
-.indepth_quote_left{
-	width: 300px;
-	float: left;
-	margin: 20px 15px 20px 0;
-}
-
-.indepth_quote_center{
-		width: 84%;
-		margin: 30px auto;
-		border-bottom:  3px solid black;
-		border-top: 3px solid black;
-		padding: 20px 3%;
-		
-}
-
-.indepth_quote_side{
-	font-size:21px;width:45%;margin:40px 0;
-	float: left;
-}
-
-
-.indepth_image_side{
-	width:45%;margin:0px;
-	float: left;
-}
-
-.indepth_image_side img{
-	width: 100%;
-}
 
 /****DINAMICO****/
 
@@ -494,6 +443,20 @@ circle:hover{
   padding: 20px 0;
   padding: 10px 35px;
   margin-left: 2%;
+}
+
+#indepth_page1{
+	background-color: #191718;
+	color: white;
+	font-weight: 300;
+}
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/break1.jpg)
+}
+
+#indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/break2.jpg);
 }
 
 @media screen and (min-width: 1920px) {
