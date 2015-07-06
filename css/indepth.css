@@ -737,6 +737,9 @@ circle:hover{
 	
 	.indepth_tarjeta_head{
 		display: table;
+		border-top: 1px solid white;
+		padding-top: 5px;
+		
 	}
 	
 	
@@ -835,9 +838,9 @@ circle:hover{
 	}
 	
 	.indepth_tarjeta_fleachas{
-		width: 80%;
+		width: 90%;
 		margin: 10px auto;
-		height: 30px;
+		height:20px;
 		
 	}
 	
