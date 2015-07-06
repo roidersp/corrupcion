@@ -30,9 +30,11 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			 ventana_alto = $(window).height();
 			 ventana_ancho = $(window).width();
 			$("#indepth_tarjeta_pais").css({
-				"width":ventana_ancho+"px",
-				"height":ventana_alto+"px"
+				"width":(ventana_ancho+100)+"px",
+				"height":(ventana_alto+100)+"px"
 			});
+			
+			$("#indepth_share").css("visibility","hidden");
 						
 			var pais_tabla=$(this).attr("pais");
 			num_carrusel=$(this).index();
@@ -61,6 +63,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		
 		$(document).on("click touchstart",".indepth_tarjeta_x",function(){
 			$("#indepth_tarjeta_pais").css("display","none");
+			$("#indepth_share").css("visibility","visible");
 		});
 		
 		

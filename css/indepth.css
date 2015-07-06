@@ -13,6 +13,7 @@
 	display: -moz-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;	
+	visibility: visible;
 }
 
 
@@ -325,6 +326,7 @@
 	display: table;
 	border-top: 3px solid white;
 	padding-top: 15px;
+	
 	
 }
 
@@ -738,6 +740,8 @@ circle:hover{
 		display: table;
 	}
 	
+	
+	
 	#indepth_tarjeta_pais_logo{
 		width: 60px;
 		height: 40px;
@@ -997,6 +1001,14 @@ circle:hover{
 	
 #indepth_mapa{
 	width: 800px;
+}
+
+}
+
+@media screen and (max-height: 750px) {
+	
+#indepth_mapa{
+	width: 700px;
 }
 
 }
