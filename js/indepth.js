@@ -35,6 +35,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			});
 			
 			$(".indepth_share").css("visibility","hidden");
+			$("body").css({ overflow: 'hidden' })
 						
 			var pais_tabla=$(this).attr("pais");
 			num_carrusel=$(this).index();
@@ -64,6 +65,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		$(document).on("click touchstart",".indepth_tarjeta_x",function(){
 			$("#indepth_tarjeta_pais").css("display","none");
 			$(".indepth_share").css("visibility","visible");
+			$("body").css({ overflow: 'auto' })
 		});
 		
 		
