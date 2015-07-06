@@ -869,7 +869,13 @@ circle:hover{
 		height: 540px;	
 	}
 	
+	#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/break1_m.jpg)
+}
 
+#indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/break2_m.jpg);
+}
 
 	
 	#indepth_cover .indepth_title{
@@ -878,9 +884,7 @@ circle:hover{
 		margin-top: 0px;
 	}
 	
-	#indepth_cover .indepth_cover_back_body{
-		top:240px;
-	}
+
 	
 	.indepth_break {
 		height: auto;
@@ -895,6 +899,33 @@ circle:hover{
 		padding: 10px 10px;
 		float: left;
 	}
+	
+		#indepth_cover .indepth_title{
+		width: 98%;
+		font-size: 20px;
+		margin: auto;
+		margin-top: 0px;
+		max-width: 90%;
+		float: none;
+		text-align: left;
+	}
+	
+	#indepth_cover .indepth_subtitle{
+		float: none;
+		text-align: center;
+		width: 95%;
+		max-width: 320px;
+		font-size: 14px;
+	}
+	
+	#indepth_cover .indepth_cover_back_body{
+	bottom: 7%;
+	padding: 20px 0;
+	width: 97%;
+	padding: 3px 5px;
+	margin-left: 10px;
+	margin: auto;
+}
 	
 	}
 	
