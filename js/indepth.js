@@ -4,13 +4,13 @@ var disqus_url="eb9e0a21-b911-430e-9591-57d10d52a9e2";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
-var ventana_alto = $(window).height();
+var ventana_alto = = window.innerHeight ? window.innerHeight : $(window).height();
 var ventana_ancho = $(window).width();
 var num_carrusel=0;
 
 $("#indepth_tarjeta_pais").css({
 	"width":ventana_ancho+"px",
-	"height":window.innerHeight+"px"
+	"height":ventana_alto+"px"
 });
 
 $.getJSON( urlIndepth+"js/data.json", function( data ) {
@@ -27,11 +27,11 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 		}
 		
 		$(document).on("click",".indepth_tabla_paises_item",function(){
-			 ventana_alto = $(window).height();
+			 ventana_alto = = window.innerHeight ? window.innerHeight : $(window).height();;
 			 ventana_ancho = $(window).width();
 			$("#indepth_tarjeta_pais").css({
 				"width":ventana_ancho+"px",
-				"height":(window.innerHeight)+"px"
+				"height":(ventana_alto)+"px"
 			});
 			
 			$(".indepth_share").css("visibility","hidden");
@@ -42,10 +42,10 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 			
 			llenar_datos_movil((data[pais_tabla]));
 			$("#indepth_tarjeta_pais").css("display","table");
-			 /*$('html, body').animate({
+			 $('html, body').animate({
 				 	scrollTop: ($("#indepth_page2").offset().top)
 		    	}, 0);
-		    */	
+		    	
 		    	
 		    	
 			});
@@ -323,6 +323,12 @@ $(window).on("resize", function(){
 	 //ventana_alto=ventana_alto-(ventana_alto*.15)
 	 	//$('.indepth_anuncio_section').css("height",ventana_alto-(ventana_alto*.10)+"px");
     }
+    
+    
+    $("#indepth_tarjeta_pais").css({
+				"width":ventana_ancho+"px",
+				"height":(ventana_alto)+"px"
+			});
 })
 
 var normalize = (function() {
