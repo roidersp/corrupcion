@@ -1,6 +1,6 @@
 var disqus_shortname = 'juanfutbol';
 var disqus_identifier;
-var disqus_url="eb9e0a21-b911-430e-9591-57d10d52a9e2";
+var disqus_url="el-mapa-negro-de-la-concacaf";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
@@ -21,7 +21,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 	if(ventana_ancho<700){
 		for (var key in data) {
 		    var value = data[key];
-		    var div= '<div class="indepth_tabla_paises_item" pais="'+key+'"><div class="indepth_logo_pais"><img src="images/Banderas_circulos/'+normalize(value['nombre']).replace(/\s/g,"-").toUpperCase()+'.png"></div><div class="indepth_tabla_pais_nombre"><div class="indepth_tabla_pais_nombre_in">'+value['nombre']+'</div></div></div>';
+		    var div= '<div class="indepth_tabla_paises_item" pais="'+key+'"><div class="indepth_logo_pais"><img src="'+urlIndepth+'images/Banderas_circulos/'+normalize(value['nombre']).replace(/\s/g,"-").toUpperCase()+'.png"></div><div class="indepth_tabla_pais_nombre"><div class="indepth_tabla_pais_nombre_in">'+value['nombre']+'</div></div></div>';
 		    
 		    $("#indepth_tabla_paises_cont").append(div);
 		}
@@ -85,7 +85,7 @@ $.getJSON( urlIndepth+"js/data.json", function( data ) {
 });
 
 var llenar_datos_movil = function(datos){
-	var data_img="images/banderas_cuadradas/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".jpg";
+	var data_img=urlIndepth+"images/banderas_cuadradas/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".jpg";
 	$("#indepth_tarjeta_pais_nombre").html(datos["nombre"]);
 	$("#indepth_tarjeta_pais_logo img").attr("src",data_img);
 	
@@ -106,7 +106,7 @@ var llenar_datos_movil = function(datos){
 		
 		
 		$.each(involucrados, function( i, item ) {
-			var div='<div class="indepth_inv_item"><img src="images/circulo/'+normalize(item).replace(/\s/g,"-").toUpperCase()+'.png"  ><div class="indepth_inv_text">'+item+'</div></div>';
+			var div='<div class="indepth_inv_item"><img src="'+urlIndepth+'images/circulo/'+normalize(item).replace(/\s/g,"-").toUpperCase()+'.png"  ><div class="indepth_inv_text">'+item+'</div></div>';
 			
 			$(".indepth_inv_cont").append(div);
 		});
@@ -132,7 +132,7 @@ var llenar_datos_movil = function(datos){
 };
 
 var llenar_datos = function(datos){
-	var data_img="images/Banderas_circulos/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".png";
+	var data_img=urlIndepth+"images/Banderas_circulos/"+normalize(datos["nombre"]).replace(/\s/g,"-").toUpperCase()+".png";
 	$("#indepth_pais_text").html(datos["nombre"]);
 	$("#indepth_pais_logo img").attr("src",data_img);
 	
@@ -153,7 +153,7 @@ var llenar_datos = function(datos){
 		
 		
 		$.each(involucrados, function( i, item ) {
-			var div='<div class="indepth_inv_item"><img src="images/circulo/'+normalize(item).replace(/\s/g,"-").toUpperCase()+'.png"  ><div class="indepth_inv_text">'+item+'</div></div>';
+			var div='<div class="indepth_inv_item"><img src="'+urlIndepth+'images/circulo/'+normalize(item).replace(/\s/g,"-").toUpperCase()+'.png"  ><div class="indepth_inv_text">'+item+'</div></div>';
 			
 			$(".indepth_inv_cont").append(div);
 		});
